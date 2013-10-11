@@ -1,0 +1,22 @@
+﻿using System;
+
+namespace tarea
+{
+	
+	public class Persona {
+		
+		public String nombre;
+		public String correo;
+		public int edad;	
+		
+		public static void Main(String[] args){
+				
+		Persona p=new Persona();	
+		Console.WriteLine("Nombre");
+		p.nombre = Console.ReadLine();
+		Console.WriteLine("Edad");
+		p.edad = int.Parse(Console.ReadLine());
+		Console.WriteLine("Correo");
+		p.correo=Console.ReadLine();
+	
+		
